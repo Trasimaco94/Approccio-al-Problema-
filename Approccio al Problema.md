@@ -47,11 +47,13 @@ class App {
 }
 
 const myApp = new App();
+```
 
-## Utilizzo del Context in React
+### Utilizzo del Context in React
 
 In React, il Context può essere utilizzato per condividere lo stato tra i componenti senza dover passare manualmente le props attraverso ogni livello dell'albero dei componenti.
 
+```javascript
 import React, { createContext, useContext, useReducer } from 'react';
 
 // Definizione del contesto
@@ -75,8 +77,8 @@ const MyComponent = () => {
   // Utilizzo dello stato e delle azioni
 };
 
- export { AppProvider, MyComponent };‹
-
+export { AppProvider, MyComponent };
+```
 
 In questo modo, la business logic può essere gestita centralmente e condivisa tra i vari componenti dell'applicazione React.
 
@@ -89,3 +91,6 @@ Con questo approccio, è possibile mantenere un codice più organizzato, modular
 - Aggiungere = Spread Operator
 
 - Modificare = Map
+
+
+Così il testo è separato chiaramente dal codice, rendendo più leggibile il Markdown.
