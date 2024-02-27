@@ -75,7 +75,7 @@ const MyComponent = () => {
   // Utilizzo dello stato e delle azioni
 };
 
-export { AppProvider, MyComponent };
+ export { AppProvider, MyComponent };‹
 
 
 In questo modo, la business logic può essere gestita centralmente e condivisa tra i vari componenti dell'applicazione React.
